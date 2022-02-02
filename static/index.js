@@ -445,7 +445,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         if (cps <= 8) return '有点意思';
         if (cps <= 10)  return '不错嘛';
         if (cps <= 15) return '和我来场莱姆吧';
-        return '呵';
+        return '呵。';
     }
 
     function toStr(obj) {
